@@ -1,4 +1,4 @@
-package dev.geronimogm.recuperatorio.dto.mapper;
+package dev.geronimogm.recuperatorio.mapper;
 
 import dev.geronimogm.recuperatorio.dto.request.TallerCreateRequest;
 import dev.geronimogm.recuperatorio.dto.request.TallerUpdateRequest;

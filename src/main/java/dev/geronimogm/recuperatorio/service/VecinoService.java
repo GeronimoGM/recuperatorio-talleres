@@ -1,6 +1,6 @@
 package dev.geronimogm.recuperatorio.service;
 
-import dev.geronimogm.recuperatorio.dto.mapper.VecinoMapper;
+import dev.geronimogm.recuperatorio.mapper.VecinoMapper;
 import dev.geronimogm.recuperatorio.dto.request.VecinoRequest;
 import dev.geronimogm.recuperatorio.dto.response.VecinoResponse;
 import dev.geronimogm.recuperatorio.entity.VecinoEntity;
