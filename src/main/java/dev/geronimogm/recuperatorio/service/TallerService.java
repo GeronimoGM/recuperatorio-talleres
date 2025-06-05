@@ -77,7 +77,7 @@ public class TallerService {
 
     @Transactional(readOnly = true)
     public List<TallerResponse> filtrar(Zona zona, String nombre) {
-        return tallerRepository.findByZonaAndNombreLike(zona, nombre)
+        return tallerRepository.findByZonaAndNombreContaining(zona, nombre)
                 .stream()
                 .map(tallerMapper::entityToDto)
                 .toList();

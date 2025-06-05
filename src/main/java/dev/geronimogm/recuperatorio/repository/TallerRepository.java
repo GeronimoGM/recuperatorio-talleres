@@ -9,5 +9,5 @@ import java.util.List;
 
 @Repository
 public interface TallerRepository extends JpaRepository<TallerEntity, Long> {
-    List<TallerEntity> findByZonaAndNombreLike(Zona zona, String nombre);
+    List<TallerEntity> findByZonaAndNombreContaining(Zona zona, String nombre);
 }
